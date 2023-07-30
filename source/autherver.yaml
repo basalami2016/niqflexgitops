@@ -1,10 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: podinfo
+  name: authserver
   namespace: default
 spec:
   interval: 5m0s
-  url: https://github.com/stefanprodan/podinfo
+  url: https://github.com/basalami2016/authserver
   ref:
     branch: master
