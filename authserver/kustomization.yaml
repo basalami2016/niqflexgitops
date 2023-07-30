@@ -1,6 +1,3 @@
-#exmple: 
-   #https://github.com/basalami2016/podinfo/tree/master/deploy    
-   #https://fluxcd.io/flux/components/kustomize/kustomization/   
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
