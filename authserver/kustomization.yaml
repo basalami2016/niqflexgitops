@@ -19,7 +19,7 @@ spec:
   targetNamespace: default
   sourceRef:
     kind: GitRepository
-    name: podinfo
-  path: "./application" #
+    name: authserver
+  path: "./application"
   prune: true
   timeout: 1m
