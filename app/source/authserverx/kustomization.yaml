@@ -1,15 +1,5 @@
-apiVersion: kustomize.toolkit.fluxcd.io/v1
+apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-metadata:
-  name: authserverx
-  namespace: default
-spec:
-  interval: 10m
-  targetNamespace: default
-  sourceRef:
-    kind: GitRepository
-    name: authserverx
-  path: "./kustomize"
-  prune: true
-  timeout: 1m
-
+namespace: default
+resources: 
+  - authserverx.yaml
